@@ -1,0 +1,6 @@
+runTime : 2022-Sep-04 at 01:13:35
+Database : WISDM
+Network : IGN
+SeqLength : 24
+StepSize : 24
+Epochs : 20
