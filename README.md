@@ -10,3 +10,5 @@ STM32_Quest_AI_ChipHead_2022
 * GMP: *** Model Type
 * EWARM: Embedded Workbench for ARM
 * IDE: Integrated Development Environment
+* STM32: STMicroelectronics 32bit
+* TBA
