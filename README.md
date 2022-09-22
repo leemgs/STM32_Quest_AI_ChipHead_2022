@@ -5,6 +5,7 @@ STM32_Quest_AI_ChipHead_2022
 # Getting Started
 * https://make.e4ds.com/contest/?ctidx=7
 
+* Entire Schedule
 ```bash
 QUEST 1, STM32Cube.AI 개발 환경 구축하기
 2022. 8. 1 (월) ~ 2022. 8. 7 (일)
@@ -24,6 +25,33 @@ QUEST 5, 새로 생성한 학습된 Model을 STM32Cube.AI를 사용하여 프로
 QUEST 6, STM32Cube.AI와 B-L475E-IOT01A 보드를 이용하여 본인만의 AI 프로젝트를 만들기
 2022. 9. 26 (월) ~ 2022. 10. 10 (월)
 ```
+
+* Corrected Entired Schedule
+```bash
+
+Quest4: IoT 보드로 센서 데이타 수집 및 데이타셋 만들기 (.csv)
+--> 사용툴: IoT보드 (B-L475E-IOT01A), STBLESensor Mobile App
+
+Quest2: 데이타 셋으로 Keras Model (예: har_ign.h5) 만들기  <====== (issue: Quest1의 예제는 cnn_gmp.h5)  
+--> 사용툴: Anaconda, PyCharm IDE
+
+Quest1: Keras Model의 그래프 분석 및 모델구조 조회하기 
+--> 사용툴: STM32CubeMX, X-CUBE-AI software pack, FP-AI-SENSING1 function pack
+
+Quest5: Keras Model로 전처리/후처리 소스 코드 생성하기 (예제: har_ign.*, har_ign_data.*)  
+--> 사용툴: STM32CubeMX
+
+Quest3: 생성한 소스 코드로 펌웨어 이미지 생성 및   IoT 보드에 이미지 플래싱하기  
+--> 사용툴: IoT 보드 (B-L475E-IOT01A), STM32CubeIDE, STM32Programmer, STBLESensor Mobile App
+```
+
+
+##   파일 포맷별 차이점 비교: .ckpt vs .pb vs .h5
+1. ckpt: Pytorch에 주로 사용되는 포맷이다. 그래프 (=모델구조)만 있는 .ckpt-meta 파일, 가중치(weight)만 있는 .ckpt-data 파일으로 구성된다.
+2. pb: 그래프 (=모델구조)와 가중치(weight) 를 모두 가지고 있는 파일이다.
+3. h5: Keras에서 주로 사용하는 포맷이다. 그래프 (=모델구조)와 가중치(weight)를 모두 가지고 있는 파일이다.
+
+
 
 ## Reference
 * https://www.st.com/en/development-tools/stm32cubemx.html
