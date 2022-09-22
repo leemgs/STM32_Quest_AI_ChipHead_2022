@@ -31,17 +31,16 @@ QUEST 6, STM32Cube.AI와 B-L475E-IOT01A 보드를 이용하여 본인만의 AI �
 * https://www.st.com/en/evaluation-tools/b-l475e-iot01a.html
 * https://www.st.com/en/development-tools/stm32cubeprog.html
 * https://www.st.com/en/embedded-software/x-cube-ai.html
-* https://wiki.st.com/stm32mcu/wiki/Category:STM32Cube.AI
 * https://www.st.com/en/embedded-software/fp-ai-sensing1.html
+* https://www.st.com/en/embedded-software/stblesensor.html
+* https://www.st.com/resource/en/user_manual/um2153-discovery-kit-for-iot-node-multichannel-communication-with-stm32l4-stmicroelectronics.pdf
+* https://wiki.st.com/stm32mcu/wiki/Category:STM32Cube.AI
 * https://wiki.st.com/stm32mcu/wiki/AI:Introduction_to_Artificial_Intelligence_with_STM32
+* https://community.st.com/s/topic/0TO0X0000003iUqWAI/stm32-machine-learning-ai
 * https://www.anaconda.com
 * https://www.jetbrains.com/pycharm
-* https://www.st.com/en/embedded-software/stblesensor.html
-* https://community.st.com/s/topic/0TO0X0000003iUqWAI/stm32-machine-learning-ai
 * https://www.tensorflow.org/tutorials
 * https://github.com/STMicroelectronics/STBlueMS_Android
-* https://www.st.com/resource/en/user_manual/um2153-discovery-kit-for-iot-node-multichannel-communication-with-stm32l4-stmicroelectronics.pdf
-
 
 
 ## Terminology
