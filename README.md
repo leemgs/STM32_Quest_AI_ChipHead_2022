@@ -74,7 +74,7 @@ Quest3: 생성한 소스 코드로 펌웨어 이미지 생성 및   IoT 보드
 ## Terminology
 * AI: Artificial Intelligence
 * HAR: Human Activity Recognition
-* ASC: Audio Signal Classification 
+* ASC: Acuastic Sound Classification 
 * IGN: *** Model Type
 * GMP: *** Model Type
 * EWARM: Embedded Workbench for ARM
