@@ -3,7 +3,7 @@ STM32_Quest_AI_ChipHead_2022
 
 
 # Getting Started
-* https://make.e4ds.com/contest/?ctidx=7
+* https://make.e4ds.com/contest/?ctidx=7 (STM32 Cube AI)
 
 * Entire Schedule
 ```bash
