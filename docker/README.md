@@ -24,3 +24,4 @@ docker run -v {full_path_to_data_folder}:/data cube_ai data/{model_file}
 
 ## Reference
 * https://www.cardinalpeak.com/blog/optimizing-edge-ml-ai-applications-using-stmicros-stm32cube-ai
+* https://github.com/openmv/openmv.git
